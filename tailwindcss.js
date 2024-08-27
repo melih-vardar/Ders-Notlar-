@@ -1,8 +1,8 @@
 //1. install for vite project
 //npm install -D tailwindcss postcss autoprefixer
-//npx tailwindcss init
+//npx tailwindcss init -p
 
-//2. postcss.config.js ayarını yap
+//2. postcss.config.js ayarını yap ???gerek var mı hala
 module.exports = {
   plugins: {
     tailwindcss: {},
