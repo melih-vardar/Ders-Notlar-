@@ -38,7 +38,18 @@ const {
 />
 */
 
-//5.submit fonksiyonunu yaz ve kullan
+//5. hata mesajlarını göster
+/*
+{ errors.name && 
+ (
+    <div className="form-error"> 
+        { errors.name.message }  
+    </div>
+  )  
+}
+*/
+
+//6.submit fonksiyonunu yaz ve kullan
 
 const submitFormData = (formData) => {
   console.log(formData);
@@ -49,17 +60,6 @@ const submitFormData = (formData) => {
 <form onSubmit={handleSubmit(submitFormData)}>
 ...
 </form>
-*/
-
-//6. hata mesajlarını göster
-/*
-{ errors.name && 
- (
-    <div className="form-error"> 
-        { errors.name.message }  
-    </div>
-  )  
-}
 */
 
 //7. submit butonunu isValid ise enable et

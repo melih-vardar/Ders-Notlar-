@@ -7,7 +7,7 @@
 
 /*
 1. gerekli olan parametreleri belirle
-Örn: localstorage için 2 tane olmnalı; key ve başlangıç değeri
+Örn: localstorage için 2 tane olmalı; key ve başlangıç değeri
 Örn: counter için 1 tane: başlangıç değeri
 */
 export function useCounter(initialValue = 0) {}
